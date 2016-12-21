@@ -889,7 +889,6 @@ service bugreport /system/bin/dumpstate -d -p -z
     class main
     disabled
     oneshot
-    keycodes 114 115 116
 
 # Proxy for Secure Storage
 on post-fs-data
