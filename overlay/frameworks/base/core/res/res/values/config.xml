@@ -293,4 +293,8 @@
 
     <!-- Exempt ImsService from privacy (location) indicators -->
     <string name="config_systemTelephonyPackage" translatable="false">com.shannon.imsservice</string>
+
+    <!-- The name of the package that will hold the dialer role by default. -->
+    <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
+
 </resources>

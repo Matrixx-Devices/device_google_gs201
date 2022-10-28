@@ -31,4 +31,11 @@
 
     <!-- String indicating the package name of the device GbaService implementation. -->
     <string name="config_gba_package" translatable="false">com.shannon.rcsservice</string>
+
+    <!-- Package name for the default in-call UI and dialer [DO NOT TRANSLATE] -->
+    <string name="ui_default_package" translatable="false">com.google.android.dialer</string>
+
+    <!-- Class name for the default main Dialer activity -->
+    <string name="dialer_default_class" translatable="false">com.google.android.dialer.DialtactsActivity</string>
+
 </resources>
