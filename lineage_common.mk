@@ -7,6 +7,10 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-lineage
 
+# Adaptive charging
+PRODUCT_COPY_FILES += \
+    device/google/gs201/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
 # AiAi Config
 PRODUCT_COPY_FILES += \
     device/google/gs201/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
