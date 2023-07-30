@@ -35,3 +35,7 @@ ril.subscription.types=RUIM
 ro.nubia.nr.support=1
 ro.telephony.default_cdma_sub=0
 ro.vendor.radio.5g=3
+
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
