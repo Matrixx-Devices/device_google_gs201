@@ -61,4 +61,7 @@
     <string name="config_systemUiIntelligence">com.google.android.as</string>
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
+    <!-- Whether device has Google Tensor SoC -->
+    <bool name="config_hasTensorSoC">true</bool>
+
 </resources>
